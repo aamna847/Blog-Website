@@ -10,25 +10,6 @@ const techData  = [
   "Deep intelligence",
 ]
 
-//inki imgs kha ha?
-//inki images nhi hain srf boxes hain or unkay andar names hain yh cyber wagera walay
-//img nh lgane?
-//nhi srf box main yh 5 ya 6 nmaes jo hain bs wo show hojayien
-//okh done thk h check krlo
-
-//gg blkl theek h magar ap btaskty hain k msla kyan tah?
-//styling ka issue tha functionality thk the. apna box ko hide krdya tha
-//oh acha jazakAllah thanks 
-//NO need iski build bna kr github pr deploy krlo
-//okay theek h kl krlungi thanks apne help ki
-//welcome hath ka hth krlo agr koi issue hoga tw dkh longa complete 
-//main krne ko abhi hi krleti lkn ismain abhi 1 feature nai h wo dalna baki h readmore pr click krne se blog ki jo info ayegi wo abhi mene nahi dali yh dekhain
-//dekha? g dkha ate apko krne ?//nai ata asal mai jinki vedio se kiya h unhon ne ptanhiq readmore sec nai krwaya or mujhy tu ata nahi h unhon nay bht mushkil smjhaaya h smjh bhi nai aya ab yh ptanhi kese krungi main
-//ma krdu?
-//ji agr ap abhi krskty hain tu krdain okh ap dkh le agr smjh na aye tw poch lena ok lkn baat synain mujhy koi acha channel btadain plz jis se main next js seekhlun
-// yr mene abhi tk youtube sa nh prhaya next officl docs sa prha ha is lye dkhonga agr dkha tw send krdonga apko okay
-//thk ha sab set ha check krlo ??
-//krti hun ji theek h sb github pr daldun?kr hn build wo kese build?
 
 export default function Feature() {
   return (
@@ -45,13 +26,7 @@ export default function Feature() {
             key={index}
             className='flex flex-col items-center justify-center text-center bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition-shadow duration-300'
           >
-            {/* <Image
-              src={`/images/${category}.svg`}
-              alt={category}
-              className='w-16 h-16 mb-4'
-              width={64}
-              height={64}
-            /> */}
+           
             <h3 className='text-lg font-semibold text-gray-800'>{category}</h3>
           </div>
         );

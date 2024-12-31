@@ -43,14 +43,14 @@ export default function Navbar() {
         </div>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-black justify-center">
           <Link
-            href={"http://localhost:3000/"}
+            href={"#"}
             className="mr-5 hover:text-red-700 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}
             Home{" "}
           </Link>
           <Link
-            href={"http://localhost:3000/about"}
+            href={"#"}
             className="mr-5 hover:text-red-700 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}
@@ -58,14 +58,14 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href={"http://localhost:3000/blog"}
+            href={"#"}
             className="mr-5 hover:text-red-700 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}
             Blog{" "}
           </Link>
           <Link
-            href={"http://localhost:3000/contact"}
+            href={"#"}
             className="mr-5 hover:text-red-700 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}
