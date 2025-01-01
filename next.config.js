@@ -1,8 +1,9 @@
-const config = {
-    reactStrictMode: true,
-    swcMinify: true,
-  };
+// next.config.mjs
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  // Remove swcMinify if you're using a newer version of Next.js
+  // swcMinify: true, // Remove this line
 
-export default config;
-
-//1 cheez yahan ani h apko kese dikhaon categories k neeche wo show nahi horhi h feature k file main h wo
+  reactStrictMode: true,
+  // Any other valid configurations here...
+};
